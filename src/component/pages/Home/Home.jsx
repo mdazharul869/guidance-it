@@ -567,15 +567,15 @@ const studentdataimage = [
 
                                 <div className='AllMEmberImgDevConatiner'>
                                   <div className='MemberImgcontant'>
-                                    <img src={azharul} alt='' />
+                                    <img src={`https://raw.githubusercontent.com/mdazharul869/all-img/main/Full%20Stack%20Web%20Developer_Full%20Stack%20Developer_front%20end%20developer_reac.js_node.js_developer_html_css_express.js_md%20azharul-%20web%20devoloper%20-%20font%20end%20devoloper%20-%20web%20aplication%20-%20html%20-%20css%20-%20java%20-%20e-commarce%20.png`} alt='' />
                                   </div>
 
                                   <div className='MemberImgcontant'>
-                                    <img src={azharul} alt='' />
+                                    <img src={`https://raw.githubusercontent.com/mdazharul869/all-img/main/Full%20Stack%20Web%20Developer_Full%20Stack%20Developer_front%20end%20developer_reac.js_node.js_developer_html_css_express.js_md%20azharul-%20web%20devoloper%20-%20font%20end%20devoloper%20-%20web%20aplication%20-%20html%20-%20css%20-%20java%20-%20e-commarce%20.png`} alt='' />
                                   </div>
 
                                   <div className='MemberImgcontant Mobail'>
-                                    <img src={azharul} alt='' />
+                                    <img src={`https://raw.githubusercontent.com/mdazharul869/all-img/main/Full%20Stack%20Web%20Developer_Full%20Stack%20Developer_front%20end%20developer_reac.js_node.js_developer_html_css_express.js_md%20azharul-%20web%20devoloper%20-%20font%20end%20devoloper%20-%20web%20aplication%20-%20html%20-%20css%20-%20java%20-%20e-commarce%20.png`} alt='' />
                                   </div>
                                   <div className=' MorePeopleicoins'>
                                    <span>+</span>
@@ -598,7 +598,7 @@ const studentdataimage = [
                               <div className='MemberModelContainer2'>
                                 <div className='MemberModelMEmber2'>
                                     <div className='AnimationImageDev'>
-                                        <img src={azharul} alt='' />
+                                        <img src={`https://raw.githubusercontent.com/mdazharul869/all-img/main/Full%20Stack%20Web%20Developer_Full%20Stack%20Developer_front%20end%20developer_reac.js_node.js_developer_html_css_express.js_md%20azharul-%20web%20devoloper%20-%20font%20end%20devoloper%20-%20web%20aplication%20-%20html%20-%20css%20-%20java%20-%20e-commarce%20.png`} alt='' />
                                     </div>
                                 </div>
                               </div>
