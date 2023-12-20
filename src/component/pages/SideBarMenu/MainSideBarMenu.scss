@@ -1,0 +1,111 @@
+.side-bar-menu-section {
+  position: fixed;
+  top: 8vh;
+  left: 0;
+  width: 250px;
+  height: 84vh;
+  background-color: #111827;
+  overflow: hidden;
+  z-index: 99999999;
+  transform: translateX(-252px);
+  transition: 0.85s;
+}
+.active-sidebar {
+  transform: translateX(0px);
+  transition: 0.85s;
+}
+.side-bar-menu-container {
+  padding: 1rem 0.5rem;
+}
+.sidebar-header-middle-end-container {
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1%;
+}
+.login-container-sidebar {
+  width: 95%;
+  margin: auto;
+
+  a {
+    width: 100%;
+    /* height: 1rem; */
+    display: grid;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #ddd;
+  }
+}
+.sidebar-header-image {
+  width: 100%;
+  height: 15vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  //  background-color: aliceblue;
+}
+.sidebar-menu-header-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  img {
+    width: 100%;
+    height: 100;
+  }
+}
+.sidebar-menu-middle-contant {
+  width: 100%;
+  height: 56vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  // background-color: rgb(50, 148, 235);
+}
+.sidebar-menu-end-container {
+  width: 100%;
+  height: 12vh;
+  // background-color: rgb(235, 50, 220);
+  border-top: 1px solid #333d33;
+  display: grid;
+  align-items: center;
+}
+.sidebar-middle-contant {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-middle-btn-group {
+  width: 95%;
+  padding: 0.2rem 0rem;
+  margin: auto;
+
+  a {
+    button {
+      width: 100%;
+      height: 2.5rem;
+      background: #44a939;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #ddd;
+      cursor: pointer;
+    }
+    .password-wrong-forget {
+      background-color: #a71616de;
+    }
+  }
+}

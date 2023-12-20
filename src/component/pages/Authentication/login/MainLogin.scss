@@ -1,0 +1,96 @@
+.account-login-user-section {
+  padding-top: 8vh;
+}
+.login-account-part {
+  background-color: #020230;
+  min-height: 90vh;
+  max-height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.login-account-container {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.login-authentication-div {
+  width: 350px;
+  height: 100%;
+  background-color: rgb(12 12 50 / 76%);
+  border-radius: 10px;
+}
+.ogin-authentication-header {
+  width: 100%;
+}
+.login-authentication-header-tittle {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #4f4f70;
+  h3 {
+    color: #dddd;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.8rem 1rem;
+    span {
+      color: red;
+    }
+  }
+}
+.login-authentication-login-middle-dev {
+  width: 100%;
+  overflow: hidden;
+  padding: 2rem 0rem;
+}
+.login-authentication-login-dev {
+  width: 90%;
+  margin: auto;
+  padding: 0.6rem 0rem;
+  color: #ddd;
+
+  input {
+    width: 90%;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #4f4f70;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: auto;
+    color: #ddd;
+  }
+  input::placeholder {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  button {
+    width: 95%;
+    height: 2.5rem;
+    background: #3951ff;
+    border: none;
+    outline: none;
+    border: 1px solid #4f4f70;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: auto;
+    color: #ddd;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .login-authentication-div {
+    width: 250px;
+  }
+}

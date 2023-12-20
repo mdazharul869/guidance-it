@@ -1,0 +1,2077 @@
+//Home Aprt 1St part css Start------------------------------
+
+//home part start -----1
+.sectionheaderpart {
+  width: 100%;
+  height: 100%;
+  padding-top: 8vh;
+  overflow: hidden;
+}
+
+.homepart1-start {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.home-part-contant-bacground {
+  width: 100%;
+  height: 100%;
+  //background-color: red;
+}
+.home-part-contant-bacground {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.home-part-item1 {
+  width: 100%;
+  height: 100%;
+}
+.img-dev-bacground-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-size: cover;
+  animation: fade 2s linear;
+  transition: 0.5s;
+}
+.guidenceit-1 {
+  background-image: url(https://res.cloudinary.com/daxvmjaff/image/upload/v1702832463/azharul-potfolio/gurdiance_1_w2j2ap.png);
+
+  opacity: 0;
+}
+.guidenceit-2 {
+  background-image: url(https://res.cloudinary.com/daxvmjaff/image/upload/v1702832907/azharul-potfolio/gurdiance_qxtoqx.png);
+  opacity: 0;
+}
+.guidenceit-3 {
+  background-image: url(https://res.cloudinary.com/daxvmjaff/image/upload/v1702831296/azharul-potfolio/gurdiance_2_ihceyp.png);
+  opacity: 1;
+}
+@keyframes fade {
+}
+//3d mofdel
+
+.dbgModel1 {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  width: 300px;
+  height: 300px;
+}
+
+.Cube1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+
+  div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+
+    .i--0 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(#020230, #00ec00);
+      transform-style: preserve-3d;
+    }
+
+    .i--1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(#020230, rgb(5, 231, 175));
+      transform: rotateY(28deg);
+    }
+
+    .i--2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(#0a0afd, rgb(5, 231, 175));
+      transform: rotateY(28deg);
+    }
+
+    .i--3 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(rgb(4, 4, 255), #56e056);
+      transform: rotateY(28deg);
+    }
+  }
+}
+
+//plan anamtion start
+
+.PlanSection {
+  width: 74px;
+  height: 2px;
+  background-color: #dddd;
+  position: absolute;
+  top: 27%;
+  left: 42%;
+}
+.PlanSections2WEb {
+  width: 74px;
+  height: 2px;
+  background-color: #dddd;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  animation: web1 infinite 40s;
+}
+.PlanSections1WEb {
+  width: 74px;
+  height: 2px;
+  background-color: #dddd;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  animation: web1 infinite 30s;
+}
+
+@keyframes web1 {
+  0% {
+    left: -12%;
+  }
+
+  100% {
+    left: 110%;
+  }
+}
+.web {
+  position: absolute;
+  top: -36px;
+  left: -9px;
+  font-size: 12px;
+  color: rgba(221, 221, 221, 0.8666666667);
+}
+
+.PlanSection {
+  top: 6%;
+  left: 50%;
+  animation: x infinite 25s;
+}
+
+@keyframes x {
+  0% {
+    left: -12%;
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  60% {
+    top: 7%;
+    left: 96%;
+    transform: rotate(90deg);
+  }
+
+  100% {
+    left: 96%;
+    transform: rotate(90deg);
+    top: 120%;
+  }
+}
+
+.PlanSections {
+  width: 74px;
+  height: 2px;
+  background-color: #dddd;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  animation: y infinite 25s;
+}
+
+@keyframes y {
+  0% {
+    top: 0%;
+    left: -8%;
+    transform: rotate(91deg);
+  }
+
+  50% {
+    top: 80%;
+    left: -8%;
+    transform: rotate(91deg);
+  }
+
+  60% {
+    top: 80%;
+    left: -8%;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    top: 80%;
+    left: 120%;
+  }
+}
+
+.CourseDitalsConatant {
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.ConatntCourse {
+  position: relative;
+}
+
+.ConatntCourseComingEvent {
+  position: absolute;
+  width: 94px;
+  top: 0%;
+  height: 267px;
+  background-color: red;
+  z-index: 9;
+  transition: 2s;
+}
+.noneLeft {
+  transform: translateX(-110px);
+}
+.nonetight {
+  transform: translateX(110px);
+}
+.ConatntCourseComingEvent2 {
+  position: absolute;
+  width: 99px;
+  top: 0%;
+  right: -4%;
+  height: 267px;
+  background-color: red;
+  z-index: 9;
+  transition: 2s;
+}
+
+.CourseItemCard {
+  width: 90%;
+  /* height: 90%; */
+  height: 41vh;
+  margin: auto;
+  margin-top: 0.5rem;
+  position: relative;
+
+  .CourseCardTittle {
+    font-size: 20px;
+    font-weight: 800;
+    width: 100%;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+
+    h4 {
+      display: flex;
+      gap: 0.3rem;
+      background: transparent;
+      color: #ddd;
+      /* border: 1px solid #ddd; */
+      padding: 0rem 1rem;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px #dddd;
+
+      span {
+        align-items: c;
+        color: red;
+      }
+    }
+  }
+}
+
+.CourseIcons {
+  width: 96%;
+  margin-top: 1rem;
+  padding-top: 2r;
+  margin: auto;
+  height: 171px;
+  background-color: rgb(161 157 157 / 8%);
+  margin-top: 1rem;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px #ddd;
+}
+.CourseBtnGroup {
+  width: 73%;
+  margin: auto;
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Coursebtn {
+    width: 100%;
+    overflow: hidden;
+
+    button {
+      font-size: 18px;
+      padding: 0.3rem 1rem;
+      font-weight: 700;
+      background: #fd3a9826;
+      border: none;
+      outline: none;
+      color: #b3a0a0;
+      border-radius: 3px;
+      position: relative;
+
+      span {
+        width: 14px;
+        height: 38px;
+        position: absolute;
+        top: -4px;
+        left: -10px;
+        background-color: #c7ababa1;
+        transform: skew(11deg, 16deg);
+        box-shadow: 0px 0px 10px #4f2020;
+        animation: a infinite 15s;
+      }
+
+      @keyframes a {
+        0% {
+          transform: translateX(0px);
+        }
+
+        50% {
+          transform: translateX(150px);
+        }
+      }
+      //box-shadow: 0px 0px 8px #ddd;
+    }
+  }
+}
+
+.PlanContainer {
+  position: relative;
+
+  .PlanBodyContant {
+    position: absolute;
+    width: 4px;
+    height: 21px;
+    right: 8px;
+    /* top: -18px; */
+    bottom: -5px;
+    transform: rotateZ(121deg);
+    box-shadow: 0px 0px 11px #ff2e2e;
+    background-color: rgba(221, 221, 221, 0.8666666667);
+  }
+
+  .PlanBodyContant1 {
+    width: 2px;
+    height: 16px;
+    background-color: #dddd;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    box-shadow: 0px 0px 5px red;
+    border-bottom-right-radius: 2px;
+  }
+  .PlanBodyContant2 {
+    width: 56px;
+    height: 1px;
+    background-color: rgba(221, 221, 221, 0.8666666667);
+    position: absolute;
+    bottom: 11px;
+    left: 0;
+    box-shadow: 0px 0px 5px #5a198e;
+  }
+}
+
+.PlanBodyContantContainer {
+  position: relative;
+
+  .PlanPakauper {
+    width: 3px;
+    height: 12px;
+    background-color: #b4b4b4dd;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+  }
+}
+
+.PlanKakaContainer {
+  position: relative;
+
+  .PlanPakaConatnt {
+    width: 18px;
+    height: 18px;
+    background-color: #ddd;
+    position: absolute;
+    bottom: 0;
+    left: -6px;
+    border-radius: 50%;
+    animation: round infinite 1s;
+  }
+}
+.HafRongContainer {
+  position: relative;
+
+  .HafPaka {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    bottom: 0;
+    left: -6px;
+    background-color: red;
+  }
+}
+
+@keyframes round {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+//plan anamtion end
+
+.HomeSectionPart1 {
+  padding-top: 8vh;
+}
+
+.Home-Part {
+  width: 100%;
+  height: 100vh;
+  background-color: #020230;
+  overflow: hidden;
+  //background-color: red;
+}
+
+.CouseDitalsConatiner {
+  width: 204px;
+  height: 279px;
+  background-color: rgb(22 22 109 / 32%);
+  position: absolute;
+  top: 37%;
+  right: 19%;
+  box-shadow: 0px 0px 8px #ddddddc9, 0px 0px 19px #dd24248f,
+    0px 0px 27px #9d8531;
+  border-radius: 10px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  transition: 2s;
+  animation: borderanimation infinite 12s;
+}
+
+.CourseItemCard .CourseCardTittle h4 {
+  animation: n infinite 10s;
+}
+
+@keyframes n {
+  0% {
+  }
+  100% {
+    border: 2px dotted rgb(235, 44, 44);
+  }
+}
+
+@keyframes borderanimation {
+  0% {
+    box-shadow: 0px 0px 8px #ddddddc9;
+  }
+
+  100% {
+    box-shadow: 0px 0px 8px #ddddddc9, 0px 0px 19px rgba(104, 221, 36, 0.561),
+      0px 0px 27px #9d8531;
+  }
+}
+.CouseDitalsConatiner::-webkit-scrollbar {
+  display: none;
+}
+
+.OfferContainner {
+  width: 174px;
+  height: 68px;
+  background-color: #161e37;
+  box-shadow: 0px 0px 6px #ddd;
+  position: absolute;
+  top: 3px;
+  right: 47%;
+  opacity: 0.8;
+
+  .OfferContant {
+    position: relative;
+
+    .OfferAnimationContant {
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .LEftAnimationWidth {
+      width: 107px;
+      height: 2px;
+      background-color: #222a6a;
+      position: absolute;
+      top: 16px;
+      right: -110px;
+      z-index: -1;
+    }
+  }
+}
+.LEftAnimationWidthContant {
+  position: relative;
+
+  .LeftAnimationWidth2 {
+    width: 2px;
+    height: 54px;
+    background-color: #222a6a;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+.LeftAnimationWidth2Container {
+  position: relative;
+
+  .LeftAnimationWidth3 {
+    height: 2px;
+    position: absolute;
+    left: 1px;
+    bottom: -54px;
+    background-color: #222a6a;
+  }
+}
+
+.LeftAnimationWidth3Container {
+  position: relative;
+
+  .LeftAnimationWidth4 {
+    width: 2px;
+    height: 162px;
+    background-color: #222a6a;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.HomepartConatnt {
+  width: 100%;
+  height: 100vh;
+  background-color: #020230;
+  position: relative;
+}
+.EarthModelPart {
+  width: 520px;
+  height: 520px;
+  /* background-color: red; */
+  position: absolute;
+  top: 125px;
+  right: 10px;
+  border-radius: 50%;
+  border: 2px dotted #2258ce;
+  box-shadow: 0px 0px 3px #3265d6;
+  transition: 2s;
+  animation: round infinite 30s;
+  //  display: none;
+}
+.EarthModelContainer {
+  position: relative;
+
+  .CourseEarthModelRound1 {
+    width: 76px;
+    height: 76px;
+    /* background: red; */
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    border: 1px solid #4d70bb;
+    box-shadow: 1px 0px 13px #2258ce;
+    border-radius: 50%;
+  }
+
+  .CourseEarthModelRound2 {
+    width: 76px;
+    height: 76px;
+    /* background: red; */
+    position: absolute;
+    top: 53px;
+    left: 81%;
+    border: 1px solid #4d70bb;
+    box-shadow: 1px 0px 13px #2258ce;
+    border-radius: 50%;
+  }
+
+  .CourseEarthModelRound3 {
+    width: 76px;
+    height: 76px;
+    /* background: red; */
+    position: absolute;
+    top: 380px;
+    left: 81%;
+    border: 1px solid #4d70bb;
+    box-shadow: 1px 0px 13px #2258ce;
+    border-radius: 50%;
+  }
+
+  .CourseEarthModelRound4 {
+    width: 76px;
+    height: 76px;
+    /* background: red; */
+    position: absolute;
+    top: 380px;
+    left: 3%;
+    border: 1px solid #4d70bb;
+    box-shadow: 1px 0px 13px #2258ce;
+    border-radius: 50%;
+  }
+}
+
+//Home part st Part End---------------------------------------
+
+.HomeFastSection {
+  width: 100%;
+  overflow: hidden;
+}
+.HomeFastSectionConatiner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.HomeFastLeftSection {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .HomeFatLeftImage {
+    width: 100%;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.ItIfoTittle {
+  color: #ddd;
+}
+
+//about section start
+
+.HomeAboutSection {
+  width: 100%;
+  // height: 90vh;
+}
+
+.HomeSectionPart {
+  width: 100%;
+  height: 100%;
+  // background-color: red;
+}
+.HomeAboutContants {
+  width: 100%;
+  // height: 100vh;
+  //background-color: blue;
+  overflow: hidden;
+  padding: 2rem 0rem;
+}
+
+.HomeAboutContainer {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+.HomeAboutLeftSection {
+  width: 50%;
+
+  //background-color: aqua;
+}
+//home left
+
+.home-left-gurdiance-it-bio {
+  align-items: center;
+  color: #ddd;
+  width: 34%;
+  height: 90vh;
+  justify-content: center;
+}
+.home-left-gurdiance-it-bio-container {
+  width: 100%;
+}
+.home-left-gurdiance-it-bio-conatnt {
+  align-items: center;
+}
+.allmodel {
+  padding-top: 12rem;
+}
+//home left
+
+.HomeAboutLeftContainer {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+}
+.HomeAboutContant {
+  width: 100%;
+  display: grid;
+  justify-content: end;
+}
+.HomeAboutLeftImageDiv {
+  width: 92%;
+  height: 95%;
+  overflow: hidden;
+  border-radius: 25px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.HomeAboutRightSection {
+  width: 50%;
+
+  // background-color: black;
+}
+.HomeRightContant {
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+  background-color: #fff;
+  padding-bottom: 2rem;
+}
+
+.HomeRightInfoSection {
+  padding: 0rem 1rem;
+}
+.HomeAboutSectionTopTitleSpan {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  div {
+    width: 14px;
+    height: 14px;
+    // background-color: rgba(221, 221, 221, 0.8666666667);
+    border-radius: 50%;
+    border: 1px solid blue;
+  }
+  span {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 0.2rem;
+    opacity: 0.8;
+    color: rgb(49, 49, 211);
+
+    p {
+      color: rgb(194, 27, 27);
+    }
+  }
+}
+
+.HomeRightTitleMain {
+  width: 100%;
+  display: grid;
+  flex-direction: column;
+  padding-top: 0.4rem;
+  div {
+    h2 {
+      font-size: 31px;
+      width: 100%;
+      font-weight: 500;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+
+      span {
+        display: flex;
+        flex-direction: row;
+        gap: 0.3rem;
+
+        p {
+          color: rgb(228, 53, 53);
+        }
+      }
+    }
+  }
+}
+
+.HomeRightInfoText {
+  width: 100%;
+  display: grid;
+  padding-top: 0.4rem;
+
+  span {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+}
+.TimgingAndExparicane {
+  width: 100%;
+  display: flex;
+  gap: 0.8rem;
+  padding-top: 0.7rem;
+}
+.ExperianceItem {
+  width: 100%;
+  display: grid;
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 0.9;
+  }
+}
+
+.Text-tittle {
+  display: flex;
+  flex-direction: column;
+  .TittleTExt {
+    width: 100%;
+
+    h1 {
+      color: rgb(207, 69, 69);
+      font-size: 36px;
+
+      span {
+        color: rgb(124, 118, 118);
+        font-size: 18px;
+        font-weight: 300;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+    }
+  }
+}
+.TimeingImageDev {
+  width: 20%;
+  height: 9vh;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.SingnitureConatiner {
+  width: 100%;
+  height: 100%;
+
+  .Signature {
+    padding-top: 0.8rem;
+    img {
+      width: 52%;
+      height: 11vh;
+    }
+  }
+}
+
+#roo-home-service {
+  padding-bottom: 14vh;
+}
+// Home Service Secction
+
+.HomeServiceSection {
+  width: 100%;
+}
+.HomeServicePart {
+  width: 100%;
+  height: 100%;
+  padding: 3rem 0rem;
+  background-color: #dddd;
+}
+
+.HomeServiceContainer {
+  width: 100%;
+
+  // background-color: #ddd;
+}
+.HomeServiceConatnt {
+  width: 100%;
+  overflow: hidden;
+}
+.HomeServiceHeaderpartSection {
+  width: 100%;
+}
+.HomeServiceHeaderTittle {
+  width: 100%;
+}
+.HomeServiceTittleSpan {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  div {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid blue;
+  }
+
+  span {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 0.2rem;
+    opacity: 0.8;
+    color: rgb(49, 49, 211);
+
+    p {
+      color: rgb(194, 27, 27);
+    }
+  }
+}
+
+.HomeServiceBtnAndTittle {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  // background-color: red;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.3rem;
+}
+.MainServiceTittle {
+  h1 {
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 100%;
+    color: red;
+
+    span {
+      color: black;
+      opacity: 0.9;
+    }
+  }
+}
+
+.SeviceBtnContainer {
+  .ServiceBtn {
+    button {
+      font-size: 16px;
+      /* background: red; */
+      background-color: #111827;
+      color: #dddd;
+      padding: 0.5rem 1.5rem;
+      border: navajowhite;
+      outline: none;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}
+
+.HomeServiceMiddleOurServiceSection {
+  margin-top: 2rem;
+
+  //background-position: right top;
+  background-position-x: right;
+}
+.HomeServiceCouseContainer {
+  width: 100%;
+  overflow: hidden;
+}
+.HomeServiceCourseContant {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.HomeServiceItem {
+  width: 22%;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.CardItem {
+  padding: 1rem;
+}
+.TittleOFItems {
+  width: 100%;
+  display: flex;
+  gap: 0.3rem;
+  align-content: center;
+  align-items: center;
+
+  .TittleIcons {
+    i {
+      align-items: center;
+
+      svg {
+        font-size: 44px;
+      }
+    }
+  }
+
+  .TittleSevice {
+    h4 {
+      font-size: 19px;
+      opacity: 0.8;
+    }
+  }
+}
+.SevicesAppInfoText {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  span {
+    font-size: 15px;
+    font-weight: 500;
+    /* line-height: 268; */
+    opacity: 0.8;
+  }
+}
+
+// our successs section
+
+.OurSuccessection {
+  width: 100%;
+}
+.OurparsonalExcellace {
+  width: 100%;
+  height: 100%;
+
+  //  background-color: red;
+}
+
+.OurparsonalExcellace {
+  width: 100%;
+  overflow: hidden;
+  background-color: #020230;
+  height: 90vh;
+  padding-top: 3.5rem;
+}
+.OurSuccessContainer {
+  width: 100%;
+  //background-color: #ddd;
+}
+.OurSuccessContant {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.OurSuccesConatanLeftSection {
+  width: 49%;
+  height: 100%;
+  //background-color: rgb(0, 255, 149);
+}
+.OurSuccesContanRightSection {
+  width: 49%;
+  height: 50vh;
+  // background-color: rebeccapurple;
+  position: relative;
+}
+
+.ourSuccessInTittleHeader {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+
+  div {
+    width: 14px;
+    height: 14px;
+    //  background-color: red;
+    border-radius: 50%;
+    border: 1px solid rgb(238, 87, 87);
+  }
+
+  span {
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    gap: 0.2rem;
+    color: rgb(235, 109, 109);
+
+    p {
+      color: rgb(29, 29, 219);
+    }
+  }
+}
+.OurSuccsessContant {
+  padding-top: 1rem;
+}
+.ourSuccessInMainTittle {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  padding-top: 1rem;
+}
+.OurSuccessTittle {
+  width: 100%;
+
+  h1 {
+    align-items: center;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #caccce;
+
+    span {
+      align-content: c;
+      color: rgb(253, 74, 74);
+      opacity: 0.8;
+    }
+  }
+}
+
+.OurSuccessInfotext {
+  width: 80%;
+  overflow: hidden;
+  display: grid;
+  padding-top: 1rem;
+
+  span {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.7;
+    color: #ddd;
+  }
+}
+
+.ActivelarnerContainer {
+  position: absolute;
+  width: 201px;
+  height: 76px;
+  background-color: #161e37;
+  top: 2%;
+  left: -28%;
+  z-index: 1;
+  box-shadow: 0px 0px 6px #ddd;
+  border-radius: 8px;
+  opacity: 0.8;
+}
+.ActiveLarnerConatant {
+  position: relative;
+}
+.MoabilBorderContainer {
+  width: 2px;
+  height: 140px;
+  background-color: #222a6a;
+  position: absolute;
+  left: 49%;
+  border: 1%;
+  top: 111%;
+  opacity: 0.8;
+  z-index: -1;
+}
+.MoabilContantborderModel {
+  position: relative;
+}
+.MiabailhandOfContant {
+  width: 50px;
+  height: 2px;
+  // background-color: red;
+  position: absolute;
+  top: 137px;
+  left: -21px;
+  background: #222a6a;
+  box-shadow: 0px 6px 12px #4aef27;
+}
+.SuccessBtnFgroup {
+  padding: 1.5rem 0rem;
+  .successBtn {
+    button {
+      font-size: 19px;
+      padding: 0.2em 1rem;
+      outline: navajowhite;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      background: #dddd;
+      font-weight: 500;
+      color: #2a2020;
+    }
+  }
+}
+.MiabailhandOfContantUper {
+  width: 2px;
+  height: 82px;
+  position: absolute;
+  top: -81px;
+  right: 33px;
+  background-color: #222a6a;
+  opacity: 0.8;
+  z-index: -1;
+}
+.upeerHandContainer {
+  position: relative;
+}
+.upperHand {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  width: 102px;
+  height: 2px;
+  background-color: #222a6a;
+}
+.InhandUperContainer {
+  position: relative;
+}
+
+.InHandUperContant {
+  position: absolute;
+  width: 3px;
+  height: 25px;
+  background-color: #222a6a;
+  top: -11px;
+  left: 0px;
+  box-shadow: -2px 0px 10px #a5a0a0;
+}
+.ActiveLarnerCard {
+  width: 100%;
+  display: flex;
+  gap: 0.8rem;
+  align-content: center;
+  padding: 0.6rem;
+
+  .PeopleInthis {
+    span {
+      font-size: 37px;
+      svg {
+        color: #9f8a8a;
+      }
+    }
+  }
+
+  .TotalLarner {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-size: 22px;
+      color: #ddd;
+    }
+
+    .ActiveLarner {
+      span {
+        font-size: 16px;
+        font-weight: 700;
+        opacity: 0.7;
+        color: #ffff;
+      }
+    }
+  }
+}
+
+.MemberModel {
+  width: 92%;
+  height: 368px;
+  position: absolute;
+  top: 38%;
+  left: 42px;
+  border-radius: 50%;
+
+  /* background-color: #2258ce; */
+  border: 2px solid #2258ce;
+  // background-color: #2258ce;
+  animation: round infinite 30s;
+}
+@keyframes round {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  // 25% {
+  //   transform: rotateZ(110deg);
+  // }
+
+  // 50% {
+  //   transform: rotateZ(185deg);
+  // }
+
+  // 75% {
+  //   transform: rotateZ(275deg);
+  // }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.OurMimberInCardIcons {
+  width: 100%;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-bottom: 1px solid #3b384e;
+}
+.OurMimberInCardTittle {
+  .TotalStudenr {
+    h4 {
+      font-size: 19px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #6d6dbb;
+    }
+    span {
+      width: 100;
+      font-size: 20px;
+      font-weight: 700;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #9b8d8d;
+    }
+  }
+}
+.OurMemberContainer {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MemberModelContainer {
+  width: 100%;
+  display: grid;
+  position: relative;
+}
+.MemberModelMEmber {
+  width: 85px;
+  height: 83px;
+  /* background-color: red; */
+  position: absolute;
+  top: 23px;
+  left: 7px;
+  border: 2px solid #4d70bb;
+  border-radius: 50%;
+  box-shadow: 1px 0px 13px #2258ce;
+}
+.MemberModelContainer2 {
+  width: 100%;
+  display: grid;
+  position: relative;
+}
+.MemberModelMEmber2 {
+  width: 85px;
+  height: 83px;
+  /* background-color: red; */
+  position: absolute;
+  top: 32px;
+  /* left: 259px; */
+  right: -7px;
+  border: 2px solid #4d70bb;
+  border-radius: 50%;
+  box-shadow: 1px 0px 13px #ce2283;
+}
+
+.MemberModelContainer3 {
+  width: 100%;
+  display: grid;
+  position: relative;
+}
+.MemberModelMEmber3 {
+  width: 85px;
+  height: 83px;
+  /* background-color: red; */
+  position: absolute;
+  /* bottom: auto; */
+  top: 316px;
+  /* left: 261px; */
+  right: 129px;
+  border: 2px solid #4d70bb;
+  border-radius: 50%;
+  box-shadow: 1px 0px 13px #22ce94;
+}
+.OurMemberContainer {
+  width: 141px;
+  height: 158px;
+  background-color: #3b3ba1d1;
+  position: absolute;
+  top: 28%;
+  left: 33%;
+  border-radius: 7px;
+}
+
+.LeanthOfUserBorder {
+  position: absolute;
+  width: 2px;
+  top: 26%;
+  left: -6%;
+  height: 294px;
+  background-color: #222a6a;
+}
+.AnimationImageDev {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.AllMEmberImgDevConatiner {
+  width: 100%;
+  display: flex;
+  padding: 0.2rem;
+
+  .MemberImgcontant {
+    width: 32px;
+    height: 32px;
+    padding-top: 0.5rem;
+    padding-left: -6px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.MorePeopleicoins {
+  background-color: transparent;
+  border-radius: 100px;
+  width: 33px;
+  height: 25px;
+  padding-top: 0.5rem;
+  padding-left: -6px;
+  /* justify-content: center; */
+  /* display: flex; */
+  /* align-items: center; */
+  margin-top: 6px;
+
+  span {
+    width: 89%;
+    height: 43%;
+    font-size: 41px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 2.2rem;
+    color: #dddddd;
+  }
+}
+.LeanthOfUserBorderWith {
+  position: absolute;
+  width: 291px;
+  top: 89%;
+  left: -14%;
+  height: 2px;
+  background-color: #222a6a;
+  position: relative;
+}
+.LEanthOfuserVonatinerWithHand {
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  right: -22px;
+  width: 41px;
+  height: 3px;
+  background-color: #227dc080;
+  /* transform: rotate3d(1, 1, 1, 20deg); */
+  transform: rotateZ(89deg);
+  box-shadow: 1px -3px 7px #3f52b5;
+}
+
+// live support sectoin
+
+.liveclass-section {
+  width: 100%;
+  height: 100%;
+}
+.liveclass-support-part {
+  width: 100%;
+  height: 100%;
+  // background-color: red;
+  padding: 1rem 0rem;
+}
+.liveclass-support-contant {
+  width: 100%;
+}
+.liveclass-support-item-end-end {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.liveclass-support-item-end-end-part-1 {
+  width: 49%;
+  overflow: hidden;
+  height: 100%;
+  //  background-color: #00ec00;
+}
+.liveclass-support-item-end-end-part-2-imagepart {
+  width: 49%;
+  height: 100%;
+  //  background-color: #0a0afd;
+}
+.liveclass-support-item-header {
+  width: 100%;
+  display: grid;
+}
+.liveclass-support-item-header-tittle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h3 {
+    font-size: 20px;
+    padding: 1rem 1rem;
+    background: linear-gradient(45deg, #92deb6, transparent);
+    color: #313197;
+    border-radius: 7px;
+    margin-bottom: 0.8rem;
+
+    .it-color-live-suppport {
+      color: red;
+    }
+  }
+}
+
+.liveclass-support-item-end-end-part-1container {
+  padding: 1rem;
+}
+.contant-live-supports-info-tex {
+  width: 100%;
+  display: grid;
+
+  span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.7cm;
+    line-break: auto;
+    white-space: break-spaces;
+  }
+}
+.liveclass-support-item-end-end-image-conmtainer {
+  width: 100%;
+  height: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.our-student-section {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+.our-student-part {
+  width: 100%;
+  height: 100%;
+  // background-color: red;
+  overflow: hidden;
+}
+.our-student-items {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+.our-stident-part-1-left {
+  width: 50%;
+  height: 80%;
+  overflow: hidden;
+}
+.our-student-part-left-container {
+  width: 100%;
+  height: 100%;
+}
+.our-student-part-left-contant {
+  width: 96%;
+  margin: auto;
+  overflow: hidden;
+}
+.our-student-part-left-image {
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  display: flex;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.our-stident-part-2-right {
+  width: 49%;
+  height: 100%;
+  // background-color: green;
+}
+.our-stident-part-2-container {
+  width: 100%;
+  height: 100%;
+}
+.our-stident-part-2-conatnt {
+  padding: 1rem 0rem;
+}
+.our-stident-part-2-item-part-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.our-student-data-card {
+  width: 50%;
+  background-color: #fff;
+  height: 100%;
+  padding: 1.8rem 0rem;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.our-student-Total-count {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  h2 {
+    color: #641aae;
+  }
+}
+.totoal-student-ifo-text {
+  width: 100%;
+  display: grid;
+
+  span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #233f3f;
+  }
+}
+.year-count {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: math;
+    color: #1f1c1cdd;
+  }
+}
+// responsoive
+@media screen and (max-width: 4000px) {
+  .CardItem {
+    padding: 2rem;
+  }
+  .MoabilBorderContainer {
+    display: none;
+  }
+  .OurMemberContainer {
+    width: 141px;
+    height: 163px;
+    background-color: rgb(69 69 172 / 32%);
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 2550px) {
+  .OurMemberContainer {
+    width: 141px;
+    height: 163px;
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    border-radius: 7px;
+  }
+  .CouseDitalsConatiner {
+    top: 29%;
+    right: 13%;
+  }
+
+  .LeanthOfUserBorder {
+    position: absolute;
+    width: 2px;
+    top: 20%;
+    left: -14%;
+    height: 305px;
+    background-color: #222a6a;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .OurMemberContainer {
+    width: 141px;
+    height: 163px;
+    position: absolute;
+    top: 61%;
+    left: 41%;
+    border-radius: 7px;
+  }
+  .CouseDitalsConatiner {
+    top: 32%;
+    right: 13%;
+  }
+
+  .OurSuccesContanRightSection {
+    width: 49%;
+    height: 50vh;
+    position: relative;
+  }
+  .LeanthOfUserBorderWith {
+    position: absolute;
+    width: 242px;
+    top: 89%;
+    left: -14%;
+    height: 2px;
+    background-color: #222a6a;
+  }
+  .LeftAnimationWidth3 {
+    width: 25vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .HomeServiceItem {
+    width: 30%;
+  }
+  .CardItem {
+    padding: 1rem;
+  }
+  .EarthModelPart {
+    width: 480px;
+    height: 480px;
+  }
+
+  .LeanthOfUserBorderWith {
+    width: 176px;
+    top: 98%;
+    left: -14%;
+  }
+
+  .OurMemberContainer {
+    width: 141px;
+    height: 158px;
+    position: absolute;
+    top: 71%;
+    left: 39%;
+    border-radius: 7px;
+  }
+  .CouseDitalsConatiner {
+    top: 36%;
+    right: 17%;
+  }
+
+  .LeftAnimationWidth3 {
+    width: 11vh;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .HomeFastLeftSection {
+    width: 100%;
+  }
+  .our-student-part-left-image {
+    height: 100%;
+  }
+  .liveclass-support-item-end-end-part-1 {
+    width: 100%;
+  }
+  .our-stident-part-1-left {
+    width: 100%;
+  }
+  .our-stident-part-2-right {
+    width: 100%;
+  }
+  .liveclass-support-item-end-end {
+    flex-direction: column-reverse;
+  }
+  .liveclass-support-item-end-end-part-2-imagepart {
+    width: 100%;
+  }
+  .Home-Part {
+    width: 100%;
+    height: 136vh;
+  }
+
+  .home-left-gurdiance-it-bio {
+    width: 100%;
+    height: 190vh;
+  }
+  .home-left-gurdiance-it-bio_tittle {
+    h1 {
+      font-size: 20px;
+    }
+  }
+  .HomepartConatnt {
+    height: 126vh;
+  }
+  .OurMemberContainer {
+    width: 131px;
+    height: 157px;
+    position: absolute;
+    top: 76%;
+    left: 40%;
+    border-radius: 7px;
+  }
+  .HomeAboutLeftSection {
+    width: 100%;
+  }
+  .HomeAboutRightSection {
+    width: 100%;
+  }
+  .HomeServiceItem {
+    width: 46%;
+  }
+  .EarthModelPart {
+    width: 486px;
+    height: 486px;
+
+    top: 125px;
+    right: 23px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .HomeRightTitleMain div h2 {
+    font-size: 23px;
+  }
+  .liveclass-support-item-header-tittle h3 {
+    font-size: 15px;
+  }
+  .MoabilBorderContainer {
+    display: block;
+  }
+  .EarthModelPart {
+    width: 360px;
+    height: 360px;
+    top: 160px;
+    right: 0px;
+  }
+
+  .CouseDitalsConatiner {
+    width: 170px;
+    height: 250px;
+    top: 22%;
+    right: 28%;
+  }
+
+  .EarthModelContainer .CourseEarthModelRound4 {
+    top: 294px;
+  }
+  .CourseBtnGroup .Coursebtn button {
+    font-size: 15px;
+    padding: 0.2rem 1rem;
+  }
+
+  .EarthModelContainer .CourseEarthModelRound3 {
+    top: 298px;
+  }
+  .Mobail {
+    display: none;
+  }
+  .OfferContainner {
+    top: 3px;
+    right: 28%;
+  }
+  .LeanthOfUserBorderWith {
+    display: none;
+  }
+  .LeanthOfUserBorder {
+    display: none;
+  }
+
+  .ActivelarnerContainer {
+    position: absolute;
+    width: 200px;
+    height: 85px;
+    background-color: #161e37;
+    top: 8%;
+    left: 26%;
+    box-shadow: 0px 0px 6px #ddd;
+    border-radius: 8px;
+    opacity: 0.8;
+  }
+
+  .MemberModelMEmber3 {
+    width: 85px;
+    height: 83px;
+    /* background-color: red; */
+    position: absolute;
+    /* bottom: auto; */
+    top: 301px;
+    /* left: 261px; */
+    right: 97px;
+    border: 2px solid #4d70bb;
+    border-radius: 50%;
+    box-shadow: 1px 0px 13px #22ce94;
+  }
+
+  .MemberModel {
+    width: 97%;
+    height: 346px;
+    position: absolute;
+    top: 25%;
+    left: -4px;
+    border-radius: 58%;
+    /* background-color: #2258ce; */
+    border: 2px solid #2258ce;
+  }
+
+  .OurparsonalExcellace {
+    height: 140vh;
+  }
+  .OurSuccessTittle h1 {
+    font-size: 30px;
+  }
+  .OurSuccesContanRightSection {
+    width: 100%;
+  }
+
+  .OurSuccesConatanLeftSection {
+    width: 100%;
+  }
+  .HomeServiceItem {
+    width: 100%;
+  }
+  .MainServiceTittle h1 {
+    font-size: 18px;
+  }
+  .HomeRightInfoText span {
+    font-size: 14px;
+  }
+
+  .MainServiceTittle h1 {
+    font-size: 20px;
+  }
+  .TimeingImageDev {
+    width: 39%;
+    height: 8vh;
+  }
+  .SingnitureConatiner .Signature img {
+    width: 70%;
+    height: 10vh;
+  }
+  .SeviceBtnContainer .ServiceBtn button {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+  .HomeServiceTittleSpan span {
+    font-size: 18px;
+  }
+
+  .OurSuccesContanRightSection {
+    height: 118vh;
+  }
+  .OurMemberContainer {
+    width: 126px;
+    height: 146px;
+    position: absolute;
+    top: 37%;
+    left: 31%;
+    border-radius: 7px;
+  }
+
+  .ActivelarnerContainer {
+    top: 5%;
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .HomeRightTitleMain div h2 {
+    font-size: 18px;
+  }
+  .EarthModelPart {
+    width: 313px;
+    height: 323px;
+    top: 179px;
+    right: -10px;
+  }
+
+  .CouseDitalsConatiner {
+    width: 177px;
+    height: 257px;
+  }
+  .CourseBtnGroup .Coursebtn button {
+    font-size: 14px;
+  }
+  .EarthModelContainer .CourseEarthModelRound4 {
+    top: 224px;
+  }
+  .EarthModelContainer .CourseEarthModelRound3 {
+    top: 257px;
+    left: 58%;
+  }
+  .EarthModelContainer .CourseEarthModelRound1 {
+    top: -14px;
+  }
+  .MainServiceTittle h1 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .MemberModel {
+    width: 113%;
+    height: 352px;
+    position: absolute;
+    top: 29%;
+    left: -19px;
+    border-radius: 58%;
+    /* background-color: #2258ce; */
+    border: 2px solid #2258ce;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .OurMemberContainer {
+    width: 126px;
+    height: 146px;
+    position: absolute;
+    top: 43%;
+    left: 31%;
+    border-radius: 7px;
+  }
+  .upperHand {
+    width: 59px;
+  }
+  .ActivelarnerContainer {
+    top: 5%;
+    left: 13%;
+  }
+}

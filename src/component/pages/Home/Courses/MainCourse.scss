@@ -1,0 +1,130 @@
+.CourseSection {
+  padding-top: 8vh;
+}
+.CoursePagepart {
+  width: 100%;
+
+  background-color: #090928;
+  max-height: 100%;
+  min-height: 90vh;
+}
+
+.CourseContant {
+  width: 100%;
+}
+.CourseHeaderTittleSection {
+  width: 100%;
+  height: 8vh;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #4f4f70;
+}
+
+.borderBottomYellow {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 165px;
+  height: 3px;
+  background-color: rgb(187, 187, 15);
+  border-radius: 5px;
+}
+.CourseHeaderTittleConatnt {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: start;
+  align-items: center;
+
+  h2 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: system-ui;
+    color: #dddd;
+  }
+}
+
+.CourseMiddlepartAllCourseSection {
+  width: 100%;
+  height: 100%;
+  padding-top: 1rem;
+}
+.CourseMiddleAllCourseContainer {
+  width: 100%;
+  height: 100%;
+}
+.CourseMiddleAllCourseContant {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.CourseItem {
+  width: 30%;
+  background-color: #111827;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%;
+}
+.CourseItemConatnt {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.CourseMiddleItemImage {
+  width: 100%;
+  height: 76%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.CourseMiddleTittle {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.8rem;
+  width: 100%;
+  h3 {
+    width: 95%;
+    margin: auto;
+    color: #dddd;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 4000px) {
+}
+@media screen and (max-width: 2550px) {
+}
+
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1024px) {
+  .CourseItem {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .CourseItem {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .CourseItem {
+    width: 100%;
+  }
+  .CourseMiddleAllCourseContant {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 4000px) {
+}
+@media screen and (max-width: 4000px) {
+}
+@media screen and (max-width: 4000px) {
+}

@@ -1,0 +1,473 @@
+.BachidDitalsSection {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+.CourseDitalsPart {
+  width: 100%;
+  min-height: 90vh;
+  max-height: 100%;
+  padding-top: 2rem;
+  background-color: #08081e;
+}
+.CourseDitalsPageContants {
+  width: 100%;
+  overflow: hidden;
+}
+.CourseDitalsPageContant {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.CourseDitalspageLeftPart {
+  width: 49%;
+}
+.CourseDitalspageRightPart {
+  width: 48%;
+  background-color: #111827;
+  border: 1px solid #333d52;
+  border-radius: 8px;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+.CourseDitalspageLeftContainer {
+  width: 98%;
+  overflow: hidden;
+  margin: auto;
+}
+.CourseDitalspageLeftContant {
+  width: 100%;
+}
+.CourseDitalsDev {
+  background-color: #111827;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #333d52;
+}
+
+.CourseDitalsDevContant {
+  width: 100%;
+  color: #ddd;
+
+  .CourseDitalsimageDiv {
+    width: 100%;
+    height: 50vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.CourseDitalsDevTittle {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    padding-bottom: 1rem;
+    font-size: 25px;
+    padding-top: 0.5rem;
+
+    @font-face {
+      font-family: "Poppins";
+      src: local("Poppins"), url(./fonts/Poppins-Regular.ttf) format("truetype");
+    }
+  }
+}
+
+.CourseDitalspart2 {
+  width: 100%;
+  margin: 1rem 0rem;
+}
+.CourseDitalspart2Container {
+  background-color: #111827;
+  border: 1px solid #333d52;
+  border-radius: 8px;
+}
+
+.CourseDitalsapart2Contant {
+  width: 95%;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+.lastCriculam {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #ddd;
+  padding-top: 1rem;
+}
+.CourseDitalspar2Tittle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #ddd;
+  border-bottom: 0.5px solid #333d52;
+  padding: 0.7rem 0rem;
+}
+
+.CourseDitalspart2TittleIcon {
+  display: flex;
+  gap: 0.6rem;
+
+  i {
+    svg {
+      font-size: 22px;
+      color: #9caaf6;
+    }
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ddd;
+  }
+}
+
+.CourseDitalspart2InfoText {
+  h4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(219 219 219 / 87%);
+  }
+  .NameToturial {
+    color: #5cdbf5;
+    font-size: 18px;
+  }
+  .BachIdLAstCrariculam {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+  }
+}
+
+// Course Ditals Aprt 33 Start -------------------
+
+.CourseDitalspart3 {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.CourseDitalspart3Container {
+  background-color: #111827;
+  border: 1px solid #333d52;
+  border-radius: 8px;
+}
+.CourseDitalspart3Contant {
+  width: 96%;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+.CourseDitalsoart3HeaderTittle {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  padding-bottom: 0.3rem;
+
+  h3 {
+    color: #fff;
+  }
+}
+.CourseDiatlspart3MiddleContant {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  span {
+    color: rgba(236, 230, 230, 0.867);
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+.CourseDitalspart4 {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.CourseDitalsoart4Container {
+  background-color: #111827;
+  border: 1px solid #333d52;
+  border-radius: 8px;
+}
+.CourseDitalspart4Contant {
+  width: 96%;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+.CourseDitalspart4Header {
+  width: 100%;
+}
+.CourseDitalspart4Tittle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333d52;
+  padding: 0.5rem 0rem;
+}
+.CourseTiditalspart4IconsTittle {
+  display: flex;
+  gap: 0.3rem;
+
+  i {
+    svg {
+      font-size: 22px;
+      color: #9caaf6;
+    }
+  }
+  h4 {
+    color: #ddd;
+  }
+}
+.CourseDitalspart4ContantInfo {
+  span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #939393;
+    text-decoration: line-through;
+  }
+
+  .Vortersmyditehobe {
+    color: #939393;
+    text-decoration: none;
+    color: #00ff4a;
+  }
+}
+.CourseDitalspart4MiddleInfoText {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  padding-top: 0.8rem;
+}
+.Infotextstart {
+  display: grid;
+
+  span {
+    color: #ddd9d9;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    line-height: 0.7cm;
+  }
+}
+.CourseDitralspart4EndBtnGRoup {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 1rem;
+
+  button {
+    width: 100%;
+    font-size: 18px;
+    padding: 0.8em 0rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #42c067;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #44b666;
+  }
+}
+
+// Right part Here Start
+
+.CourseDitalsRightPartContainer {
+  width: 100%;
+  overflow: hidden;
+}
+.CourseRightPartConatent {
+  width: 100%;
+}
+.CourseRightpartHeaderSection {
+  width: 100%;
+  background-color: #333d52;
+}
+.CourseRightPartHeaderContainer {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  align-items: center;
+}
+.CourseDitalsTittle {
+  padding: 0.6rem;
+  cursor: pointer;
+  h2 {
+    color: rgba(230, 225, 225, 0.867);
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+.CourseRightPartHeaderCotant {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: scroll;
+}
+
+.ActiveNaveThis {
+  background-color: #0428b6;
+}
+
+.CourseRightpartMIddlepartSection {
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem 0rem;
+}
+.bestaritobox {
+  display: none;
+}
+.CourseRightMiddlepartContainer {
+  width: 95%;
+  margin: auto;
+}
+.CourseRightPartContant {
+  width: 100%;
+  overflow: hidden;
+}
+
+.CourseTittleContnt {
+  width: 100%;
+  display: grid;
+
+  h3 {
+    align-items: center;
+    color: #ddd;
+  }
+}
+.infotextaboutcourseContant {
+  width: 100%;
+  display: grid;
+
+  p {
+    color: rgb(245 245 245 / 87%);
+    font-size: 16px;
+    white-space: break-spaces;
+    font-weight: 400;
+    font-family: "Noto Sans Bengali", sans-serif;
+  }
+}
+
+//cariculam boxx---------------------
+.TittleCariculam {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  padding-top: 0.5rem;
+  h2 {
+    color: #ddd;
+  }
+}
+.CariculamBtGrop {
+  width: 100%;
+  padding: 0.5rem 0rem;
+}
+.CariculamBtn {
+  align-items: c;
+  button {
+    width: 100%;
+    height: 3.3rem;
+    font-size: 18px;
+    font-weight: 600;
+
+    border: navajowhite;
+    outline: none;
+    border-radius: 8px;
+    color: #ddd;
+    cursor: pointer;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    padding-left: 2rem;
+  }
+}
+.bg-color-this-won {
+  background: rgb(255 255 255 / 7%);
+}
+.bg-change {
+  background-color: #120ea0;
+}
+
+.CariculamItemDitalsContainer {
+  width: 100%;
+}
+.CariculamItemContant {
+  width: 100%;
+}
+.CariculamItemTittle {
+  width: 100%;
+  display: flex;
+  gap: 0.8rem;
+  color: #dddd;
+  border-bottom: 1px solid #333d52;
+  padding: 0.4rem 0rem;
+  align-items: center;
+  padding-left: 0.3rem;
+
+  i {
+    svg {
+      color: #00dfff;
+      font-size: 22px;
+    }
+  }
+  span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+///eredsdf
+@media screen and (max-width: 4000px) {
+}
+@media screen and (max-width: 2550px) {
+}
+
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1024px) {
+  .CourseDitalsDevTittle h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .CourseDitalspageLeftPart {
+    width: 100%;
+  }
+  .CourseDitalsDevContant .CourseDitalsimageDiv {
+    height: 36vh;
+  }
+  .CourseDitalspageRightPart {
+    width: 100%;
+  }
+  .CourseDitalsDevTittle h3 {
+    font-size: 18px;
+  }
+  .CourseDitalspart3Contant {
+    width: 95%;
+  }
+  .CourseDitalspart4Contant {
+    width: 95%;
+  }
+  .CourseRightMiddlepartContainer {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 4000px) {
+}
+@media screen and (max-width: 4000px) {
+}
+@media screen and (max-width: 4000px) {
+}

@@ -1,0 +1,91 @@
+<div className="PlanSection">
+  <div className="PlanContainer">
+    <div className="PlanBodyContant"></div>
+    <div className="PlanBodyContant1"></div>
+    <div className="PlanBodyContant2">
+      {/* pklan paka */}
+      <div className="PlanBodyContantContainer">
+        <div className="PlanPakauper">
+          <div className="PlanKakaContainer">
+            <div className="PlanPakaConatnt">
+              <div className="HafRongContainer">
+                <div className="HafPaka"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* Plan Animiation start */} {/* Plan Animiation start */}
+
+<div className="PlanSections">
+  <div className="PlanContainer">
+    <div className="PlanBodyContant"></div>
+    <div className="PlanBodyContant1"></div>
+    <div className="PlanBodyContant2">
+      {/* pklan paka */}
+      <div className="PlanBodyContantContainer">
+        <div className="PlanPakauper">
+          <div className="PlanKakaContainer">
+            <div className="PlanPakaConatnt">
+              <div className="HafRongContainer">
+                <div className="HafPaka"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* Plan Animiation start */} {/* Plan Animiation start */}
+
+<div className="PlanSections1WEb">
+  <div className="PlanContainer">
+    <div className="PlanBodyContant"></div>
+    <div className="PlanBodyContant1"></div>
+    <div className="PlanBodyContant2">
+      {/* pklan paka */}
+      <div className="PlanBodyContantContainer">
+        <div className="PlanPakauper">
+          <div className="PlanKakaContainer">
+            <span className="web">Web</span>
+
+            <div className="PlanPakaConatnt">
+              <div className="HafRongContainer">
+                <div className="HafPaka"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* Plan Animiation start */} {/* Plan Animiation start */}
+
+<div className="PlanSections2WEb">
+  <div className="PlanContainer">
+    <div className="PlanBodyContant"></div>
+    <div className="PlanBodyContant1"></div>
+    <div className="PlanBodyContant2">
+      {/* pklan paka */}
+      <div className="PlanBodyContantContainer">
+        <div className="PlanPakauper">
+          <div className="PlanKakaContainer">
+            <span className="web">Degetal Marketing</span>
+
+            <div className="PlanPakaConatnt">
+              <div className="HafRongContainer">
+                <div className="HafPaka"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* Plan Animiation start */}

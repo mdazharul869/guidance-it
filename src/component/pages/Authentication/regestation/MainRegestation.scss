@@ -1,0 +1,55 @@
+.regestation-authentication-div {
+  width: 350px;
+  height: 100%;
+  background-color: rgba(12, 12, 50, 0.76);
+  border-radius: 10px;
+}
+.ex-change-page {
+  padding: 1rem;
+  margin-left: 2rem;
+}
+.ex-change-page-login {
+  padding: 1rem;
+}
+@media screen and (max-width: 4000px) {
+  .regestation-authentication-div {
+    width: 30000px;
+  }
+}
+@media screen and (max-width: 2550px) {
+  .regestation-authentication-div {
+    width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .regestation-authentication-div {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .regestation-authentication-div {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 764px) {
+  .regestation-authentication-div {
+    width: 425px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .regestation-authentication-div {
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .regestation-authentication-div {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .regestation-authentication-div {
+    width: 100%;
+  }
+}

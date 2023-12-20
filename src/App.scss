@@ -1,0 +1,82 @@
+#root {
+  max-width: 4000px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  max-width: 4000px;
+  width: 100%;
+  height: 100%;
+  background-color: #ececec;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.paddingcontainer {
+  padding: 0rem 1rem;
+}
+
+@media screen and (max-width: 4000px) {
+  .paddingcontainer {
+    padding: 0rem 10rem;
+  }
+}
+
+@media screen and (max-width: 2550px) {
+  .paddingcontainer {
+    padding: 0rem 10rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .paddingcontainer {
+    padding: 0rem 5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .paddingcontainer {
+    padding: 0rem 3rem;
+  }
+}
+
+@media screen and (max-width: 764px) {
+}
+
+@media screen and (max-width: 425px) {
+  .paddingcontainer {
+    padding: 0rem 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 320px) {
+}
