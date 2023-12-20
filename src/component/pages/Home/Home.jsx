@@ -6,13 +6,13 @@ import React, { useEffect } from 'react';
 import { FcManager } from "react-icons/fc";
 import { TbUsersGroup } from "react-icons/tb";
 import './Home.scss';
-import aboutme from "./image/aboutme.jpg";
 import supportclass from "./image/Online-live-Class-1.png";
+import aboutme from "./image/aboutme.jpg";
 import signiture from "./image/signiture.png";
 
 import Footer from '../../layout/Footer/FooterMobailMenu/Footer';
 import AboutHero from './AboutHero/AboutHero';
-import azharul from "./image/Full Stack Web Developer_Full Stack Developer_front end developer_reac.js_node.js_developer_html_css_express.js_md azharul- web devoloper - font end devoloper - web aplication - html - css - java - e-commarce .png";
+
 import MostPopularCourse from './MostPopularCourse/MostPopularCourse';
 
 

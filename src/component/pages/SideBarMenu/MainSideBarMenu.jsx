@@ -1,8 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { Link } from 'react-router-dom'
-import imglogin from "../Home/image/Full Stack Web Developer_Full Stack Developer_front end developer_reac.js_node.js_developer_html_css_express.js_md azharul- web devoloper - font end devoloper - web aplication - html - css - java - e-commarce .png"
-import "./MainSideBarMenu.scss"
+
 
 const MainSideBarMenu = () => {
   return (
@@ -14,7 +13,7 @@ const MainSideBarMenu = () => {
 
                     <div className='sidebar-header-image xl-3434-24'>
                         <div className='sidebar-menu-header-img'>
-                            <img src={imglogin} alt='' />
+                            <img src={""} alt='' />
                         </div>
                     </div>
 
